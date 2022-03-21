@@ -1,0 +1,78 @@
+.wrapper{
+    width: 100%;
+    border: 2px solid rgb(214, 212, 212);
+    min-height: fit-content;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(to right, rgb(224, 223, 223),lightblue);
+    color: rgb(29, 107, 181);
+}
+.card{
+    border: 1px solid rgb(185, 185, 185);
+    height: 400px;
+    width: 250px;
+    display: inline-block;
+    transition: all 0.5s;
+    background: linear-gradient(to bottom,#2c98e0,#150051  );
+    margin: 20px;
+    font-size: large;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px grey;
+    transform: scale(1.04);
+    transition: all 0.5s;
+}
+
+span{
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 1.7em !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-size: 1.4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: beige;
+    line-height: 50px;
+    font-weight: 100;
+}
+.text{
+   padding-top: 7vh; 
+}
+
+.wrapper2{
+    /* background-color: #F08080; */
+    /* background: linear-gradient(to bottom,darkcyan,cyan); */
+    width: 70%;
+    /* min-height: 500px; */
+    margin: auto;
+    text-align: center;
+}
+.btn{
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(to bottom,darkcyan,cyan);
+    /* background-color: rgb(12, 196, 196); */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 60px;
+    transition: all 0.5s;
+    border: white;
+    background-color: rgb(11, 228, 228);
+    color: darkcyan;
+    font-size: 1.1em;
+}
+button:hover{
+    width: 150px;
+    text-decoration: underline;
+    background-color: cyan;
+    color: darkcyan;
+    border-radius: 10%;
+    transition: all 0.7s;
+    border: white;
+}
